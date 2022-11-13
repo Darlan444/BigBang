@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap');
+*{
+    margin: 0;
+    text-decoration: none;
+}
+body{
+    background-color: #252525;
+    background-image: url(https://tecnoblog.net/wp-content/uploads/2019/01/the-big-bang-theory-globoplay.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.principal{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+.video{
+    width: 870px;
+    height: 520px;
+    border-radius: 1%;
+}
+.logo{
+    border-radius: 6%;
+    width: 4rem;
+    height: 4rem;
+}
+h1, p{
+    color: red;
+    border-radius: 2rem;
+    font-family: 'Roboto Slab', serif;
+}
+.secundaria{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: #252525;
+    padding: 1rem;
+    border-radius: 5% 2rem;
+}
